@@ -3,10 +3,12 @@ This data set contains booking information for a city hotel and a resort hotel, 
 
 We will perform exploratory data analysis with python to get insight from the data.
 
-# Table of Content
-* Motivation
-* Tools and Libraries Used
-* Files
+# Project Work Flow
+* Importing Libraries
+* Loading the dataset
+* Exploratory data analysis
+* Data Wrangling
+* Data Vizualization, Storytelling & Experimenting with charts : Understand the relationships between variables
 * Conclusion
 
 # Motivation
@@ -28,13 +30,8 @@ We have used Python 3 to its following packages:
 * Seaborn
 * plotly.express
 
-# Files
-This repository contains two files other than readme file
-
-Hotel Booking.ipynb: Jupyter Notebook file contains all the python code, documentation and visualization
-hotel_bookings.csv: Our dataset file
-
-Dataset contains following features:
+# Features information:
+The dataset contains features like:
 
 1. hotel
 2. is_canceled
@@ -82,3 +79,5 @@ Dataset contains following features:
 9. Factors like lead time, number of days in the waiting list, or the assignation of reserved rooms to customers do not significantly affect the cancellation of bookings.
 10. Corporate guests have the highest percentage of repeat bookings, while TA/TO has the lowest. In the case of canceled bookings, TA/TO has the highest percentage, while Corporate has the lowest.
 11. The length of stay tends to decrease as ADR increases, probably to reduce costs.
+
+**Sources** This project is part of AlmaBetter Curriculum.
