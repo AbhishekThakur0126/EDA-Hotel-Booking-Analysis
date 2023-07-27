@@ -13,13 +13,18 @@ We will perform exploratory data analysis with python to get insight from the da
 
 # Motivation
 ## We have tried to answer the following Questions
-1. How Many Booking Were Cancelled?
-2. What is the booking ratio between Resort Hotel and City Hotel?
-3. What is the percentage of booking for each year?
-4. Which is the most busy month for hotel?
-5. From which country most guest come?
-6. How Long People Stay in the hotel?
-7. Which was the most booked accommodation type (Single, Couple, Family)?
+Q1. How many booking were cancelled in both type of hotels?
+Q2. Which Meal type is most preferable?
+Q3. Which Month have highest booking?
+Q4. Which type of room are most preferred?
+Q5. From which country most guests are coming?
+Q6. Which hotel type having highest waiting time?
+Q7. Which months have cheaper booking rates?
+Q8. How many number of customers repeated their bookings?
+Q9. What are the number of weekend vs weekdays night bookings for resort hotels?
+Q10. How does lead time affect cancellation?
+Q11. How does deposit type affects cancelation?
+Q12. How does ADR affect cancelation?
 
 # Tools and Libraries Used
 We have used Python 3 to its following packages:
@@ -72,12 +77,13 @@ The dataset contains features like:
 2. July and August witness the highest number of bookings as compared to the rest of the months.
 3. Room Type A is the most preferred choice among travelers for accommodations.
 4. The majority of bookings are made from Portugal and Great Britain.
-5. Most guests tend to stay in the hotels for 1-4 days.
-6. City Hotel has a higher guest retention rate compared to other hotels.
-7. Around one-fourth of the total bookings get canceled, with City Hotel having the highest cancellation rate.
-8. New guests tend to cancel bookings more frequently than repeat customers.
-9. Factors like lead time, number of days in the waiting list, or the assignation of reserved rooms to customers do not significantly affect the cancellation of bookings.
-10. Corporate guests have the highest percentage of repeat bookings, while TA/TO has the lowest. In the case of canceled bookings, TA/TO has the highest percentage, while Corporate has the lowest.
-11. The length of stay tends to decrease as ADR increases, probably to reduce costs.
+5. Majority of the hotels booked are city hotel.
+6. Non-Refund policies lead to a higher cancellation rates.
+7. Target months between May to Aug. Those are peak months due to the summer period.
+8. Majority of the guests are from Western Europe. So target this area for advertisements.
+9. Since there are very few repeated guests, focus should be on retaining the customers after their first visit.
+10. Increase in lead time increases the rate of cancellation.
+11. Increase in ADR also increases the rate of cancellation.
+12. Customer should do their booking in during the month November to January because in these months both hotels have cheaper average daily rate.
 
 **Sources** This project is part of AlmaBetter Curriculum.
