@@ -14,16 +14,27 @@ We will perform exploratory data analysis with python to get insight from the da
 # Motivation
 ## We have tried to answer the following Questions
 Q1. How many booking were cancelled in both type of hotels?
+
 Q2. Which Meal type is most preferable?
+
 Q3. Which Month have highest booking?
+
 Q4. Which type of room are most preferred?
+
 Q5. From which country most guests are coming?
+
 Q6. Which hotel type having highest waiting time?
+
 Q7. Which months have cheaper booking rates?
+
 Q8. How many number of customers repeated their bookings?
+
 Q9. What are the number of weekend vs weekdays night bookings for resort hotels?
+
 Q10. How does lead time affect cancellation?
+
 Q11. How does deposit type affects cancelation?
+
 Q12. How does ADR affect cancelation?
 
 # Tools and Libraries Used
